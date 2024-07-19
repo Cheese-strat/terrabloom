@@ -1,0 +1,144 @@
+{
+    "feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "default": {
+          "feature": "terralith:nothing",
+          "placement": []
+        },
+        "features": [
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/1",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/2",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/3",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/4",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/5",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/6",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/7",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/8",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_spruce/9",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_dead_spruce/1",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_dead_spruce/2",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.001,
+            "feature": {
+              "feature": "arboria:snowy_dead_spruce/3",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.0001,
+            "feature": {
+              "feature": "arboria:big_spruce/1",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.0001,
+            "feature": {
+              "feature": "arboria:big_spruce/2",
+              "placement": []
+            }
+          },
+          {
+            "chance": 0.0001,
+            "feature": {
+              "feature": "arboria:big_spruce/3",
+              "placement": []
+            }
+          }
+        ]
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 5
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "MOTION_BLOCKING"
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:would_survive",
+          "state": {
+            "Name": "minecraft:fern"
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  
