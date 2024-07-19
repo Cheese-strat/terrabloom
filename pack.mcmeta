@@ -1,0 +1,21 @@
+{
+    "pack": {
+      "pack_format": 15,
+      "description": [
+        {
+          "text": "Terraboria v1.0.0",
+          "color": "#c0ffad"
+        },
+        "\n",
+        {
+          "text": "Created by ",
+          "color": "#8f8f8f"
+        },
+        {
+          "text": "Cheese_strat",
+          "color": "#f3ff4b"
+        }
+      ]
+    }
+  }
+  
