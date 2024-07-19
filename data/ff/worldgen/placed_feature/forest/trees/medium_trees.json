@@ -1,0 +1,77 @@
+{
+    "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+            "features": [
+                {
+                    "chance": 0.25,
+                    "feature": {
+                        "feature": "ff:oak/oak_5",
+                        "placement": []
+                    }
+                },
+                {
+                    "chance": 0.25,
+                    "feature": {
+                        "feature": "ff:oak/oak_6",
+                        "placement": []
+                    }
+                },
+                {
+                    "chance": 0.25,
+                    "feature": {
+                        "feature": "ff:oak/oak_7",
+                        "placement": []
+                    }
+                },
+                {
+                    "chance": 0.25,
+                    "feature": {
+                        "feature": "ff:oak/oak_8",
+                        "placement": []
+                    }
+                }
+            ],
+            "default": {
+                "feature": "ff:oak/oak_9",
+                "placement": []
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 4
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": 0.15,
+            "below_noise": 0,
+            "above_noise": 1
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": 0.25,
+            "below_noise": 1,
+            "above_noise": 0
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

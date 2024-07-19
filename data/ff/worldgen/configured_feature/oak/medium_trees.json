@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "ff:oak/oak_5",
+                "placement": []
+            },
+            {
+                "feature": "ff:oak/oak_6",
+                "placement": []
+            },
+            {
+                "feature": "ff:oak/oak_7",
+                "placement": []
+            },
+            {
+                "feature": "ff:oak/oak_8",
+                "placement": []
+            },
+            {
+                "feature": "ff:oak/oak_9",
+                "placement": []
+            }
+        ]
+    }
+}

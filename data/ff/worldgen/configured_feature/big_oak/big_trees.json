@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "ff:big_oak/big_oak_1",
+                "placement": []
+            },
+            {
+                "feature": "ff:big_oak/big_oak_2",
+                "placement": []
+            },
+            {
+                "feature": "ff:big_oak/big_oak_3",
+                "placement": []
+            }
+        ]
+    }
+}
