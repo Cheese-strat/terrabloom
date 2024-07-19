@@ -125,15 +125,15 @@
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/roots/layer_1a",
+                                "feature": "tmb:big_oak/roots/layer_1a",
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/roots/layer_2a",
+                                "feature": "tmb:big_oak/roots/layer_2a",
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/branch/vertical/1_leaves",
+                                "feature": "tmb:big_oak/branch/vertical/1_leaves",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

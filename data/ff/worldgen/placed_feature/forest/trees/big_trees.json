@@ -6,27 +6,27 @@
                 {
                     "chance": 0.4,
                     "feature": {
-                        "feature": "ff:big_oak/big_oak_4",
+                        "feature": "tmb:big_oak/big_oak_4",
                         "placement": []
                     }
                 },
                 {
                     "chance": 0.5,
                     "feature": {
-                        "feature": "ff:big_oak/big_oak_2",
+                        "feature": "tmb:big_oak/big_oak_2",
                         "placement": []
                     }
                 },
                 {
                     "chance": 0.5,
                     "feature": {
-                        "feature": "ff:big_oak/big_oak_3",
+                        "feature": "tmb:big_oak/big_oak_3",
                         "placement": []
                     }
                 }
             ],
             "default": {
-                "feature": "ff:big_oak/big_oak_1",
+                "feature": "tmb:big_oak/big_oak_1",
                 "placement": []
             }
         }

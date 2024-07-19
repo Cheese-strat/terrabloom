@@ -129,15 +129,15 @@
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/roots/layer_1",
+                                "feature": "tmb:big_oak/roots/layer_1",
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/roots/layer_2",
+                                "feature": "tmb:big_oak/roots/layer_2",
                                 "placement": []
                             },
                             {
-                                "feature": "ff:big_oak/branch/vertical/2_leaves",
+                                "feature": "tmb:big_oak/branch/vertical/2_leaves",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",
@@ -151,7 +151,7 @@
                                 ]
                             },
                             {
-                                "feature": "ff:big_oak/branch_sets/horizontal/1",
+                                "feature": "tmb:big_oak/branch_sets/horizontal/1",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

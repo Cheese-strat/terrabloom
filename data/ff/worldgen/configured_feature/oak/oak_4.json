@@ -57,7 +57,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "ff:oak/branch/vertical/short_leaves_z",
+                                "feature": "tmb:oak/branch/vertical/short_leaves_z",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

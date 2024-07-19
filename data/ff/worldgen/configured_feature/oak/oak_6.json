@@ -57,7 +57,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "ff:oak/branch/vertical/1_east",
+                                "feature": "tmb:oak/branch/vertical/1_east",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",
@@ -67,7 +67,7 @@
                                 ]
                             },
                             {
-                                "feature": "ff:oak/roots/layer_1",
+                                "feature": "tmb:oak/roots/layer_1",
                                 "placement": [
                                     {
                                         "type": "minecraft:count",
