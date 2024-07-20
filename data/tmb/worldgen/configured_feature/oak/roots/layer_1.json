@@ -96,6 +96,15 @@
                                                     ],
                                                     "blocks": "#minecraft:oak_logs"
                                                 }
+                                            },
+                                            {
+                                                "type": "minecraft:matching_blocks",
+                                                "offset": [
+                                                    0,
+                                                    -1,
+                                                    0
+                                                ],
+                                                "blocks": "#minecraft:dirt"
                                             }
                                         ]
                                     }

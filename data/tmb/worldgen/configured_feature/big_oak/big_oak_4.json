@@ -100,7 +100,7 @@
                                                     "type": "minecraft:weighted_state_provider",
                                                     "entries": [
                                                         {
-                                                            "weight": 3,
+                                                            "weight": 5,
                                                             "data": {
                                                                 "Name": "minecraft:grass_block",
                                                                 "Properties": {
@@ -130,11 +130,39 @@
                             },
                             {
                                 "feature": "tmb:big_oak/roots/layer_1",
-                                "placement": []
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 4
+                                    },
+                                    {
+                                        "type": "minecraft:random_offset",
+                                        "xz_spread": 0,
+                                        "y_spread": {
+                                            "type": "minecraft:uniform",
+                                            "min_inclusive": -1,
+                                            "max_inclusive": 0
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "feature": "tmb:big_oak/roots/layer_2",
-                                "placement": []
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 8
+                                    },
+                                    {
+                                        "type": "minecraft:random_offset",
+                                        "xz_spread": 0,
+                                        "y_spread": {
+                                            "type": "minecraft:uniform",
+                                            "min_inclusive": -2,
+                                            "max_inclusive": 0
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "feature": "tmb:big_oak/branch/vertical/2_leaves",
