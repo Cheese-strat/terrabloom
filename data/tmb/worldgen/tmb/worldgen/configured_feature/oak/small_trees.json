@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "tmb:oak/oak_1",
+                "placement": []
+            },
+            {
+                "feature": "tmb:oak/oak_2",
+                "placement": []
+            },
+            {
+                "feature": "tmb:oak/oak_3",
+                "placement": []
+            },
+            {
+                "feature": "tmb:oak/oak_4",
+                "placement": []
+            }
+        ]
+    }
+}
