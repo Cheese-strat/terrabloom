@@ -4,19 +4,15 @@
         "config": {
             "features": [
                 {
-                    "feature": "tmb:oak/oak_1",
+                    "feature": "tmb:birch/birch_1",
                     "placement": []
                 },
                 {
-                    "feature": "tmb:oak/oak_2",
+                    "feature": "tmb:birch/birch_2",
                     "placement": []
                 },
                 {
-                    "feature": "tmb:oak/oak_3",
-                    "placement": []
-                },
-                {
-                    "feature": "tmb:oak/oak_4",
+                    "feature": "tmb:birch/birch_3",
                     "placement": []
                 }
             ]
@@ -27,8 +23,8 @@
             "type": "minecraft:count",
             "count": {
                 "type": "minecraft:uniform",
-                "min_inclusive": 5,
-                "max_inclusive": 6
+                "min_inclusive": 3,
+                "max_inclusive": 4
             }
         },
         {
@@ -45,7 +41,7 @@
         },
         {
             "type": "minecraft:noise_threshold_count",
-            "noise_level": 0.23,
+            "noise_level": 0.25,
             "below_noise": 0,
             "above_noise": 1
         },
