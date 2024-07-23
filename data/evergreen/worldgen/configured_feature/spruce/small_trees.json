@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "evergreen:spruce/spruce_1",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/spruce_3",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/spruce_5",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/spruce_6",
+                "placement": []
+            }
+        ]
+    }
+}

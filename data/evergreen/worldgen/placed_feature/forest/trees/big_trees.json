@@ -1,0 +1,143 @@
+{
+    "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+            "features": [
+                {
+                    "chance": 0.4,
+                    "feature": {
+                        "feature": "evergreen:big_oak/big_oak_4",
+                        "placement": []
+                    }
+                },
+                {
+                    "chance": 0.5,
+                    "feature": {
+                        "feature": "evergreen:big_oak/big_oak_2",
+                        "placement": []
+                    }
+                },
+                {
+                    "chance": 0.5,
+                    "feature": {
+                        "feature": "evergreen:big_oak/big_oak_3",
+                        "placement": []
+                    }
+                }
+            ],
+            "default": {
+                "feature": "evergreen:big_oak/big_oak_1",
+                "placement": []
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "uniform",
+                "min_inclusive": 8,
+                "max_inclusive": 9
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": 0.19,
+            "below_noise": 1,
+            "above_noise": 0
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:would_survive",
+                        "offset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "state": {
+                            "Name": "minecraft:oak_sapling",
+                            "Properties": {
+                                "stage": "0"
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:would_survive",
+                        "offset": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "state": {
+                            "Name": "minecraft:oak_sapling",
+                            "Properties": {
+                                "stage": "0"
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:would_survive",
+                        "offset": [
+                            -3,
+                            0,
+                            0
+                        ],
+                        "state": {
+                            "Name": "minecraft:oak_sapling",
+                            "Properties": {
+                                "stage": "0"
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:would_survive",
+                        "offset": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "state": {
+                            "Name": "minecraft:oak_sapling",
+                            "Properties": {
+                                "stage": "0"
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:would_survive",
+                        "offset": [
+                            0,
+                            0,
+                            -3
+                        ],
+                        "state": {
+                            "Name": "minecraft:oak_sapling",
+                            "Properties": {
+                                "stage": "0"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

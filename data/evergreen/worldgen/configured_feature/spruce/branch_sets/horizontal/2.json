@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "evergreen:spruce/branch/horizontal/2_east",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/branch/horizontal/2_north",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/branch/horizontal/2_south",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:spruce/branch/horizontal/2_west",
+                "placement": []
+            }
+        ]
+    }
+}
