@@ -140,7 +140,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "evergreen:spruce/branch_sets/diagonal/1",
+                                "feature": "terrabloom:spruce/branch_sets/diagonal/1",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",
@@ -154,7 +154,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:spruce/branch_sets/diagonal/2",
+                                "feature": "terrabloom:spruce/branch_sets/diagonal/2",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",
@@ -168,7 +168,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:spruce/roots/layer_1",
+                                "feature": "terrabloom:spruce/roots/layer_1",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

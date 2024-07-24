@@ -3,19 +3,19 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:spruce/spruce_2",
+                "feature": "terrabloom:spruce/spruce_2",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/spruce_4",
+                "feature": "terrabloom:spruce/spruce_4",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/spruce_7",
+                "feature": "terrabloom:spruce/spruce_7",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/spruce_8",
+                "feature": "terrabloom:spruce/spruce_8",
                 "placement": []
             }
         ]

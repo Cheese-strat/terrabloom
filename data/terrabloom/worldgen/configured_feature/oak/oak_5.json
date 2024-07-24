@@ -74,7 +74,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "evergreen:oak/branch_sets/horizontal/1",
+                                "feature": "terrabloom:oak/branch_sets/horizontal/1",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",
@@ -88,7 +88,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:oak/roots/layer_1",
+                                "feature": "terrabloom:oak/roots/layer_1",
                                 "placement": [
                                     {
                                         "type": "minecraft:count",

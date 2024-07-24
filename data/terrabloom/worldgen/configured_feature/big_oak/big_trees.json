@@ -3,15 +3,15 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:big_oak/big_oak_1",
+                "feature": "terrabloom:big_oak/big_oak_1",
                 "placement": []
             },
             {
-                "feature": "evergreen:big_oak/big_oak_2",
+                "feature": "terrabloom:big_oak/big_oak_2",
                 "placement": []
             },
             {
-                "feature": "evergreen:big_oak/big_oak_3",
+                "feature": "terrabloom:big_oak/big_oak_3",
                 "placement": []
             }
         ]

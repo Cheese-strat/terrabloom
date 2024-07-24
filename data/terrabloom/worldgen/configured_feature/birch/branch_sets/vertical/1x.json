@@ -3,7 +3,7 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:birch/branch/vertical/1_east",
+                "feature": "terrabloom:birch/branch/vertical/1_east",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",
@@ -17,7 +17,7 @@
                 ]
             },
             {
-                "feature": "evergreen:birch/branch/vertical/1_west",
+                "feature": "terrabloom:birch/branch/vertical/1_west",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",

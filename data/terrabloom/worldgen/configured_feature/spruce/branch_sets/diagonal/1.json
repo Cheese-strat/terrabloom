@@ -3,19 +3,19 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:spruce/branch/diagonal/1_northeast",
+                "feature": "terrabloom:spruce/branch/diagonal/1_northeast",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/diagonal/1_northwest",
+                "feature": "terrabloom:spruce/branch/diagonal/1_northwest",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/diagonal/1_southeast",
+                "feature": "terrabloom:spruce/branch/diagonal/1_southeast",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/diagonal/1_southwest",
+                "feature": "terrabloom:spruce/branch/diagonal/1_southwest",
                 "placement": []
             }
         ]

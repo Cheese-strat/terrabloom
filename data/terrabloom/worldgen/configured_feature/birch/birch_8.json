@@ -54,7 +54,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "evergreen:birch/branch_sets/vertical/1z",
+                                "feature": "terrabloom:birch/branch_sets/vertical/1z",
                                 "placement": [
                                     {
                                         "type": "minecraft:count",
@@ -68,7 +68,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:birch/roots/layer_1",
+                                "feature": "terrabloom:birch/roots/layer_1",
                                 "placement": [
                                     {
                                         "type": "count",

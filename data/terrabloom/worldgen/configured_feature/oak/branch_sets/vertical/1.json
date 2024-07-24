@@ -3,7 +3,7 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:oak/branch/vertical/1_east",
+                "feature": "terrabloom:oak/branch/vertical/1_east",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",
@@ -17,7 +17,7 @@
                 ]
             },
             {
-                "feature": "evergreen:oak/branch/vertical/1_north",
+                "feature": "terrabloom:oak/branch/vertical/1_north",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",
@@ -31,7 +31,7 @@
                 ]
             },
             {
-                "feature": "evergreen:oak/branch/vertical/1_south",
+                "feature": "terrabloom:oak/branch/vertical/1_south",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",
@@ -45,7 +45,7 @@
                 ]
             },
             {
-                "feature": "evergreen:oak/branch/vertical/1_west",
+                "feature": "terrabloom:oak/branch/vertical/1_west",
                 "placement": [
                     {
                         "type": "minecraft:random_offset",

@@ -125,7 +125,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "evergreen:big_oak/roots/layer_1a",
+                                "feature": "terrabloom:big_oak/roots/layer_1a",
                                 "placement": [
                                     {
                                         "type": "minecraft:count",
@@ -143,7 +143,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:big_oak/roots/layer_2a",
+                                "feature": "terrabloom:big_oak/roots/layer_2a",
                                 "placement": [
                                     {
                                         "type": "minecraft:count",
@@ -161,7 +161,7 @@
                                 ]
                             },
                             {
-                                "feature": "evergreen:big_oak/branch/vertical/1_leaves",
+                                "feature": "terrabloom:big_oak/branch/vertical/1_leaves",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

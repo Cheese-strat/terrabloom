@@ -57,7 +57,7 @@
                                 "placement": []
                             },
                             {
-                                "feature": "evergreen:oak/branch/vertical/short_leaves_z",
+                                "feature": "terrabloom:oak/branch/vertical/short_leaves_z",
                                 "placement": [
                                     {
                                         "type": "minecraft:random_offset",

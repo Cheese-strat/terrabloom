@@ -3,15 +3,15 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:birch/birch_1",
+                "feature": "terrabloom:birch/birch_1",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_2",
+                "feature": "terrabloom:birch/birch_2",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_3",
+                "feature": "terrabloom:birch/birch_3",
                 "placement": []
             }
         ]

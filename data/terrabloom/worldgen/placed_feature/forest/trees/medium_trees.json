@@ -6,34 +6,34 @@
                 {
                     "chance": 0.25,
                     "feature": {
-                        "feature": "evergreen:oak/oak_5",
+                        "feature": "terrabloom:oak/oak_5",
                         "placement": []
                     }
                 },
                 {
                     "chance": 0.25,
                     "feature": {
-                        "feature": "evergreen:oak/oak_6",
+                        "feature": "terrabloom:oak/oak_6",
                         "placement": []
                     }
                 },
                 {
                     "chance": 0.25,
                     "feature": {
-                        "feature": "evergreen:oak/oak_7",
+                        "feature": "terrabloom:oak/oak_7",
                         "placement": []
                     }
                 },
                 {
                     "chance": 0.25,
                     "feature": {
-                        "feature": "evergreen:oak/oak_8",
+                        "feature": "terrabloom:oak/oak_8",
                         "placement": []
                     }
                 }
             ],
             "default": {
-                "feature": "evergreen:oak/oak_9",
+                "feature": "terrabloom:oak/oak_9",
                 "placement": []
             }
         }

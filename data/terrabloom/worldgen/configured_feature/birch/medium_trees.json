@@ -3,23 +3,23 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:birch/birch_4",
+                "feature": "terrabloom:birch/birch_4",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_5",
+                "feature": "terrabloom:birch/birch_5",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_6",
+                "feature": "terrabloom:birch/birch_6",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_7",
+                "feature": "terrabloom:birch/birch_7",
                 "placement": []
             },
             {
-                "feature": "evergreen:birch/birch_8",
+                "feature": "terrabloom:birch/birch_8",
                 "placement": []
             }
         ]

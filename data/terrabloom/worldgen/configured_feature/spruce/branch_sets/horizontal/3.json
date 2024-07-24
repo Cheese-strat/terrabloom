@@ -3,19 +3,19 @@
     "config": {
         "features": [
             {
-                "feature": "evergreen:spruce/branch/horizontal/3_east",
+                "feature": "terrabloom:spruce/branch/horizontal/3_east",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/horizontal/3_north",
+                "feature": "terrabloom:spruce/branch/horizontal/3_north",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/horizontal/3_south",
+                "feature": "terrabloom:spruce/branch/horizontal/3_south",
                 "placement": []
             },
             {
-                "feature": "evergreen:spruce/branch/horizontal/3_west",
+                "feature": "terrabloom:spruce/branch/horizontal/3_west",
                 "placement": []
             }
         ]
