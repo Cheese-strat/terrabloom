@@ -64,8 +64,6 @@
     [],
     ["minecraft:spring_water"],
     [
-      "terraboria:temperate_highlands/trees",
-      "terraboria:temperate_highlands/fallen_trees",
       "minecraft:glow_lichen",
       "terralith:highlands/temperate/flowers",
       "terralith:highlands/temperate/pile_oak",
