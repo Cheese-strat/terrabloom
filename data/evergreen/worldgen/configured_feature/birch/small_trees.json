@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "evergreen:birch/birch_1",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:birch/birch_2",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:birch/birch_3",
+                "placement": []
+            }
+        ]
+    }
+}
