@@ -79,8 +79,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "evergreen:dark_forest/trees/medium_trees",
-      "evergreen:dark_forest/trees/small_trees",
+      "terrabloom:dark_forest/trees/medium_trees",
+      "terrabloom:dark_forest/trees/small_trees",
       "minecraft:forest_flowers",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",

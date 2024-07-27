@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:acacia/branch/1_east",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:acacia/branch/1_north",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:acacia/branch/1_south",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:acacia/branch/1_west",
+                "placement": []
+            }
+        ]
+    }
+}

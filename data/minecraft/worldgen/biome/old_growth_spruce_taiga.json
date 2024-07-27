@@ -80,9 +80,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "evergreen:old_growth_spruce_taiga/trees/big_trees",
-      "evergreen:old_growth_spruce_taiga/trees/medium_trees",
-      "evergreen:old_growth_spruce_taiga/trees/small_trees",
+      "terrabloom:old_growth_spruce_taiga/trees/big_trees",
+      "terrabloom:old_growth_spruce_taiga/trees/medium_trees",
+      "terrabloom:old_growth_spruce_taiga/trees/small_trees",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga",
       "minecraft:patch_dead_bush",

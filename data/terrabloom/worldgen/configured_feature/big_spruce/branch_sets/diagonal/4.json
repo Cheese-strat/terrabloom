@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:big_spruce/branch/diagonal/4_northeast",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:big_spruce/branch/diagonal/4_northwest",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:big_spruce/branch/diagonal/4_southeast",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:big_spruce/branch/diagonal/4_southwest",
+                "placement": []
+            }
+        ]
+    }
+}
