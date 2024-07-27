@@ -4,23 +4,15 @@
         "config": {
             "features": [
                 {
-                    "feature": "evergreen:birch/birch_4",
+                    "feature": "evergreen:spruce/spruce_1",
                     "placement": []
                 },
                 {
-                    "feature": "evergreen:birch/birch_5",
+                    "feature": "evergreen:spruce/spruce_2",
                     "placement": []
                 },
                 {
-                    "feature": "evergreen:birch/birch_6",
-                    "placement": []
-                },
-                {
-                    "feature": "evergreen:birch/birch_7",
-                    "placement": []
-                },
-                {
-                    "feature": "evergreen:birch/birch_8",
+                    "feature": "evergreen:spruce/spruce_3",
                     "placement": []
                 }
             ]
@@ -31,8 +23,8 @@
             "type": "minecraft:count",
             "count": {
                 "type": "minecraft:uniform",
-                "min_inclusive": 6,
-                "max_inclusive": 7
+                "min_inclusive": 4,
+                "max_inclusive": 5
             }
         },
         {
@@ -44,13 +36,7 @@
         },
         {
             "type": "minecraft:heightmap",
-            "heightmap": "WORLD_SURFACE"
-        },
-        {
-            "type": "minecraft:noise_threshold_count",
-            "noise_level": 0.08,
-            "below_noise": 1,
-            "above_noise": 0
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES"
         },
         {
             "type": "minecraft:block_predicate_filter",
@@ -66,7 +52,7 @@
                                 0,
                                 0
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -78,7 +64,7 @@
                                 0,
                                 1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -90,7 +76,7 @@
                                 0,
                                 0
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -102,7 +88,7 @@
                                 0,
                                 -1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -114,7 +100,7 @@
                                 0,
                                 1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -126,7 +112,7 @@
                                 0,
                                 -1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -138,7 +124,7 @@
                                 0,
                                 1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -150,7 +136,7 @@
                                 0,
                                 -1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -162,7 +148,7 @@
                                 0,
                                 0
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -174,7 +160,7 @@
                                 0,
                                 2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -186,7 +172,7 @@
                                 0,
                                 0
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -198,7 +184,7 @@
                                 0,
                                 -2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -210,7 +196,7 @@
                                 0,
                                 2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -222,7 +208,7 @@
                                 0,
                                 -2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -234,7 +220,7 @@
                                 0,
                                 2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -246,7 +232,7 @@
                                 0,
                                 -2
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -258,7 +244,7 @@
                                 0,
                                 1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -270,7 +256,7 @@
                                 0,
                                 -1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -282,7 +268,7 @@
                                 0,
                                 1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     },
                     {
@@ -294,7 +280,7 @@
                                 0,
                                 -1
                             ],
-                            "blocks": "#minecraft:birch_logs"
+                            "blocks": "#minecraft:spruce_logs"
                         }
                     }
                 ]
