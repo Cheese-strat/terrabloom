@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:spruce/branch/horizontal/3_east",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/branch/horizontal/3_north",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/branch/horizontal/3_south",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/branch/horizontal/3_west",
+                "placement": []
+            }
+        ]
+    }
+}

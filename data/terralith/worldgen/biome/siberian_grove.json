@@ -62,7 +62,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "terraboria:siberian_grove/trees",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:flower_default",

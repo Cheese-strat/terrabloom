@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:spruce/spruce_1",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/spruce_3",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/spruce_5",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:spruce/spruce_6",
+                "placement": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:oak/oak_1",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:oak/oak_2",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:oak/oak_3",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:oak/oak_4",
+                "placement": []
+            }
+        ]
+    }
+}

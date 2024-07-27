@@ -64,8 +64,6 @@
     ["minecraft:spring_water"],
     [
       "terralith:yosemite/waterfall",
-      "terraboria:yosemite/trees",
-      "terraboria:yosemite/fallen_logs",
       "terralith:taiga/lush/flowers",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",

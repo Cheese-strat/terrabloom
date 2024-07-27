@@ -73,8 +73,8 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "evergreen:taiga/trees/medium_trees",
-      "evergreen:taiga/trees/small_trees",
+      "terrabloom:taiga/trees/medium_trees",
+      "terrabloom:taiga/trees/small_trees",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",

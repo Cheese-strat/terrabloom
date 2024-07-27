@@ -65,8 +65,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "terraboria:sakura/fallen_trees",
-      "terraboria:sakura/trees",
+
       "terralith:sakura/flowers",
       "terralith:sakura/sugarcane",
       "terralith:sakura/bamboo",
