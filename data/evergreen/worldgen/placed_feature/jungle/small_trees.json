@@ -1,0 +1,293 @@
+{
+    "feature": {
+        "type": "minecraft:simple_random_selector",
+        "config": {
+            "features": [
+                {
+                    "feature": "evergreen:jungle/small_jungle_1",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:jungle/small_jungle_2",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:jungle/small_jungle_3",
+                    "placement": []
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 4,
+                "max_inclusive": 5
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -1,
+                                0,
+                                0
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                -1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                1,
+                                0,
+                                -1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -1,
+                                0,
+                                1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -1,
+                                0,
+                                -1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                2,
+                                0,
+                                0
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -2,
+                                0,
+                                0
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                -2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                1,
+                                0,
+                                2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                1,
+                                0,
+                                -2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -1,
+                                0,
+                                2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -1,
+                                0,
+                                -2
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                2,
+                                0,
+                                1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                2,
+                                0,
+                                -1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -2,
+                                0,
+                                1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                -2,
+                                0,
+                                -1
+                            ],
+                            "blocks": "#minecraft:oak_logs"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

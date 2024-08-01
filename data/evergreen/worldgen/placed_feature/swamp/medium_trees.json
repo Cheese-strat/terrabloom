@@ -1,0 +1,53 @@
+{
+    "feature": {
+        "type": "minecraft:simple_random_selector",
+        "config": {
+            "features": [
+                {
+                    "feature": "evergreen:swamp/medium_swamp_1",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:swamp/medium_swamp_2",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:swamp/medium_swamp_3",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:swamp/medium_swamp_4",
+                    "placement": []
+                },
+                {
+                    "feature": "evergreen:swamp/medium_swamp_5",
+                    "placement": []
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

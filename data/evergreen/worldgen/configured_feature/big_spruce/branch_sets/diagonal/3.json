@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "evergreen:big_spruce/branch/diagonal/3_northeast",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:big_spruce/branch/diagonal/3_northwest",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:big_spruce/branch/diagonal/3_southeast",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:big_spruce/branch/diagonal/3_southwest",
+                "placement": []
+            }
+        ]
+    }
+}
