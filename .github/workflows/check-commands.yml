@@ -1,0 +1,19 @@
+# .github/workflows/check-commands.yml
+name: Check commands
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - main
+      - 'releases/**'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: mcbeet/check-commands@v1
+        with:
+          source: .
+          minecraft: "1.21"
+          stats: true
