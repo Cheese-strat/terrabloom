@@ -79,9 +79,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "terrabloom:forest/trees/big_trees",
-      "terrabloom:forest/trees/medium_trees",
-      "terrabloom:forest/trees/small_trees",
+      "evergreen:forest/trees/big_trees",
+      "evergreen:forest/trees/medium_trees",
+      "evergreen:forest/trees/small_trees",
       "minecraft:flower_default",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
