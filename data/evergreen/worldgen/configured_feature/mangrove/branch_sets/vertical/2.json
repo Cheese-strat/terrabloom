@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "evergreen:mangrove/branch/vertical/2_east",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:mangrove/branch/vertical/2_north",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:mangrove/branch/vertical/2_south",
+                "placement": []
+            },
+            {
+                "feature": "evergreen:mangrove/branch/vertical/2_west",
+                "placement": []
+            }
+        ]
+    }
+}

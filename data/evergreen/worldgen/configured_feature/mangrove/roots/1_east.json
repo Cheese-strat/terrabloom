@@ -1,0 +1,334 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": {
+                    "type": "minecraft:simple_random_selector",
+                    "config": {
+                        "features": [
+                            {
+                                "feature": {
+                                    "type": "minecraft:simple_block",
+                                    "config": {
+                                        "to_place": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:mangrove_roots",
+                                                "Properties": {
+                                                    "waterlogged": "false"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "placement": []
+                            },
+                            {
+                                "feature": {
+                                    "type": "minecraft:simple_random_selector",
+                                    "config": {
+                                        "features": [
+                                            {
+                                                "feature": {
+                                                    "type": "minecraft:simple_block",
+                                                    "config": {
+                                                        "to_place": {
+                                                            "type": "minecraft:simple_state_provider",
+                                                            "state": {
+                                                                "Name": "minecraft:mangrove_roots",
+                                                                "Properties": {
+                                                                    "waterlogged": "false"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "placement": []
+                                            },
+                                            {
+                                                "feature": {
+                                                    "type": "minecraft:tree",
+                                                    "config": {
+                                                        "ignore_vines": true,
+                                                        "force_dirt": false,
+                                                        "minimum_size": {
+                                                            "type": "minecraft:two_layers_feature_size",
+                                                            "limit": 0,
+                                                            "lower_size": 0,
+                                                            "upper_size": 0
+                                                        },
+                                                        "dirt_provider": {
+                                                            "type": "minecraft:simple_state_provider",
+                                                            "state": {
+                                                                "Name": "minecraft:mangrove_roots",
+                                                                "Properties": {
+                                                                    "waterlogged": "false"
+                                                                }
+                                                            }
+                                                        },
+                                                        "trunk_provider": {
+                                                            "type": "minecraft:simple_state_provider",
+                                                            "state": {
+                                                                "Name": "minecraft:mangrove_roots",
+                                                                "Properties": {
+                                                                    "waterlogged": "false"
+                                                                }
+                                                            }
+                                                        },
+                                                        "foliage_provider": {
+                                                            "type": "minecraft:simple_state_provider",
+                                                            "state": {
+                                                                "Name": "minecraft:mangrove_roots",
+                                                                "Properties": {
+                                                                    "waterlogged": "false"
+                                                                }
+                                                            }
+                                                        },
+                                                        "root_placer": {
+                                                            "type": "minecraft:mangrove_root_placer",
+                                                            "root_provider": {
+                                                                "type": "minecraft:simple_state_provider",
+                                                                "state": {
+                                                                    "Name": "minecraft:mangrove_roots",
+                                                                    "Properties": {
+                                                                        "waterlogged": "false"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "trunk_offset_y": 0,
+                                                            "mangrove_root_placement": {
+                                                                "max_root_width": 1,
+                                                                "max_root_length": 7,
+                                                                "random_skew_chance": 0.2,
+                                                                "can_grow_through": "#minecraft:air",
+                                                                "muddy_roots_in": "minecraft:mud",
+                                                                "muddy_roots_provider": {
+                                                                    "type": "minecraft:simple_state_provider",
+                                                                    "state": {
+                                                                        "Name": "minecraft:muddy_mangrove_roots",
+                                                                        "Properties": {
+                                                                            "axis": "y"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "trunk_placer": {
+                                                            "type": "minecraft:straight_trunk_placer",
+                                                            "base_height": 2,
+                                                            "height_rand_a": 0,
+                                                            "height_rand_b": 0
+                                                        },
+                                                        "foliage_placer": {
+                                                            "type": "minecraft:acacia_foliage_placer",
+                                                            "radius": 0,
+                                                            "offset": 0
+                                                        },
+                                                        "decorators": []
+                                                    }
+                                                },
+                                                "placement": [
+                                                    {
+                                                        "type": "minecraft:block_predicate_filter",
+                                                        "predicate": {
+                                                            "type": "minecraft:matching_blocks",
+                                                            "offset": [
+                                                                0,
+                                                                0,
+                                                                0
+                                                            ],
+                                                            "blocks": "minecraft:mangrove_roots"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "minecraft:count",
+                                                        "count": 8
+                                                    },
+                                                    {
+                                                        "type": "minecraft:random_offset",
+                                                        "xz_spread": {
+                                                            "type": "minecraft:uniform",
+                                                            "min_inclusive": 0,
+                                                            "max_inclusive": 1
+                                                        },
+                                                        "y_spread": -2
+                                                    },
+                                                    {
+                                                        "type": "minecraft:block_predicate_filter",
+                                                        "predicate": {
+                                                            "type": "minecraft:all_of",
+                                                            "predicates": [
+                                                                {
+                                                                    "type": "minecraft:all_of",
+                                                                    "predicates": [
+                                                                        {
+                                                                            "type": "minecraft:matching_blocks",
+                                                                            "offset": [
+                                                                                -1,
+                                                                                2,
+                                                                                0
+                                                                            ],
+                                                                            "blocks": "minecraft:mangrove_roots"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "minecraft:count",
+                                                        "count": 12
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "blocks": "minecraft:mangrove_roots"
+                                        }
+                                    },
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 8
+                                    },
+                                    {
+                                        "type": "minecraft:random_offset",
+                                        "xz_spread": {
+                                            "type": "minecraft:uniform",
+                                            "min_inclusive": 0,
+                                            "max_inclusive": 1
+                                        },
+                                        "y_spread": -1
+                                    },
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:all_of",
+                                            "predicates": [
+                                                {
+                                                    "type": "minecraft:all_of",
+                                                    "predicates": [
+                                                        {
+                                                            "type": "minecraft:matching_blocks",
+                                                            "offset": [
+                                                                -2,
+                                                                2,
+                                                                0
+                                                            ],
+                                                            "blocks": "minecraft:mangrove_log"
+                                                        },
+                                                        {
+                                                            "type": "minecraft:matching_blocks",
+                                                            "offset": [
+                                                                -1,
+                                                                1,
+                                                                0
+                                                            ],
+                                                            "blocks": "minecraft:mangrove_roots"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "minecraft:not",
+                                                    "predicate": {
+                                                        "type": "minecraft:matching_blocks",
+                                                        "offset": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "blocks": "minecraft:mangrove_roots"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 12
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": "minecraft:mangrove_log"
+                        }
+                    },
+                    {
+                        "type": "minecraft:count",
+                        "count": 8
+                    },
+                    {
+                        "type": "minecraft:random_offset",
+                        "xz_spread": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 0,
+                            "max_inclusive": 1
+                        },
+                        "y_spread": 0
+                    },
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:all_of",
+                            "predicates": [
+                                {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                        {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                            ],
+                                            "blocks": "minecraft:mangrove_log"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:not",
+                                    "predicate": {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "blocks": "minecraft:mangrove_roots"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "minecraft:count",
+                        "count": 12
+                    }
+                ]
+            }
+        ]
+    }
+}

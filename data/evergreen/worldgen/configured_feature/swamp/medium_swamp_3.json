@@ -1,0 +1,131 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": {
+                    "type": "minecraft:simple_random_selector",
+                    "config": {
+                        "features": [
+                            {
+                                "feature": {
+                                    "type": "minecraft:tree",
+                                    "config": {
+                                        "ignore_vines": true,
+                                        "force_dirt": false,
+                                        "minimum_size": {
+                                            "type": "minecraft:two_layers_feature_size",
+                                            "limit": 1,
+                                            "lower_size": 0,
+                                            "upper_size": 1
+                                        },
+                                        "dirt_provider": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:dirt"
+                                            }
+                                        },
+                                        "trunk_provider": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:oak_log",
+                                                "Properties": {
+                                                    "axis": "y"
+                                                }
+                                            }
+                                        },
+                                        "foliage_provider": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:oak_log",
+                                                "Properties": {
+                                                    "axis": "y"
+                                                }
+                                            }
+                                        },
+                                        "trunk_placer": {
+                                            "type": "minecraft:straight_trunk_placer",
+                                            "base_height": 12,
+                                            "height_rand_a": 1,
+                                            "height_rand_b": 0
+                                        },
+                                        "foliage_placer": {
+                                            "type": "minecraft:acacia_foliage_placer",
+                                            "radius": 0,
+                                            "offset": 0
+                                        },
+                                        "decorators": [
+                                            {
+                                                "type": "minecraft:trunk_vine"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "placement": []
+                            },
+                            {
+                                "feature": "evergreen:swamp/branch_sets/1",
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 12
+                                    },
+                                    {
+                                        "type": "minecraft:random_offset",
+                                        "xz_spread": 0,
+                                        "y_spread": {
+                                            "type": "minecraft:uniform",
+                                            "min_inclusive": 12,
+                                            "max_inclusive": 13
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "feature": "evergreen:swamp/roots/layer_1",
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "feature": "evergreen:swamp/roots/layer_2",
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 4
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:would_survive",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "state": {
+                                "Name": "minecraft:oak_sapling",
+                                "Properties": {
+                                    "stage": "0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:count",
+                        "count": 16
+                    }
+                ]
+            }
+        ]
+    }
+}
