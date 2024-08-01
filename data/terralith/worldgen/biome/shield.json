@@ -78,6 +78,8 @@
 
             "minecraft:flower_default",
             "minecraft:patch_grass_taiga_2",
+            "terrabloom:shield/pine_trees",
+            "terrabloom:shield/spruce_trees",
             "minecraft:brown_mushroom_taiga",
             "minecraft:red_mushroom_taiga",
             "minecraft:brown_mushroom_normal",

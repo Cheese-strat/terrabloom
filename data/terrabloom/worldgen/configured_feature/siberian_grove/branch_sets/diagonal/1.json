@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": "terrabloom:siberian_grove/branch/diagonal/1_northeast",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:siberian_grove/branch/diagonal/1_northwest",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:siberian_grove/branch/diagonal/1_southeast",
+                "placement": []
+            },
+            {
+                "feature": "terrabloom:siberian_grove/branch/diagonal/1_southwest",
+                "placement": []
+            }
+        ]
+    }
+}

@@ -15,3 +15,16 @@ size: small-average (50-80%)
     
   
 [terralith link](https://stardustlabs.miraheze.org/wiki/shield)
+
+Done!
+
+pine trees:
+- Reused birch trees, dark oak logs, oak leaves.
+  - Persistent leaves
+
+spruce trees:
+- Reused spruce trees, spruce logs, spruce leaves.
+  - Persistent leaves.
+
+generation:
+- Patches of orange pine trees, regular pine trees and both.
