@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:moss_carpet",
+      "minecraft:air",
+      "minecraft:snow",
+      "minecraft:stone_slab",
+      "minecraft:dead_bush"
+    ]
+  }

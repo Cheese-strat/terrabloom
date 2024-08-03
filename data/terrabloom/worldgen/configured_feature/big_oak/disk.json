@@ -1,0 +1,143 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": {
+                    "type": "simple_random_selector",
+                    "config": {
+                        "features": [
+                            {
+                                "feature": {
+                                    "type": "minecraft:disk",
+                                    "config": {
+                                        "state_provider": {
+                                            "fallback": {
+                                                "type": "minecraft:simple_state_provider",
+                                                "state": {
+                                                    "Name": "minecraft:stone"
+                                                }
+                                            },
+                                            "rules": [
+                                                {
+                                                    "if_true": {
+                                                        "type": "minecraft:true"
+                                                    },
+                                                    "then": {
+                                                        "type": "minecraft:weighted_state_provider",
+                                                        "entries": [
+                                                            {
+                                                                "data": {
+                                                                    "Name": "minecraft:rooted_dirt"
+                                                                },
+                                                                "weight": 1
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "Name": "minecraft:dirt"
+                                                                },
+                                                                "weight": 4
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "Name": "minecraft:grass_block"
+                                                                },
+                                                                "weight": 5
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "target": {
+                                            "type": "minecraft:true"
+                                        },
+                                        "radius": 6,
+                                        "half_height": 0
+                                    }
+                                },
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "feature": {
+                                    "type": "minecraft:disk",
+                                    "config": {
+                                        "state_provider": {
+                                            "fallback": {
+                                                "type": "minecraft:simple_state_provider",
+                                                "state": {
+                                                    "Name": "minecraft:stone"
+                                                }
+                                            },
+                                            "rules": [
+                                                {
+                                                    "if_true": {
+                                                        "type": "minecraft:true"
+                                                    },
+                                                    "then": {
+                                                        "type": "minecraft:weighted_state_provider",
+                                                        "entries": [
+                                                            {
+                                                                "data": {
+                                                                    "Name": "minecraft:rooted_dirt"
+                                                                },
+                                                                "weight": 5
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "Name": "minecraft:dirt"
+                                                                },
+                                                                "weight": 3
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "target": {
+                                            "type": "minecraft:true"
+                                        },
+                                        "radius": 4,
+                                        "half_height": 0
+                                    }
+                                },
+                                "placement": [
+                                    {
+                                        "type": "minecraft:count",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "heightmap",
+                        "heightmap": "WORLD_SURFACE_WG"
+                    },
+                    {
+                        "type": "random_offset",
+                        "y_spread": -1,
+                        "xz_spread": 0
+                    },
+                    {
+                        "type": "block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:solid"
+                        }
+                    },
+                    {
+                        "type": "minecraft:count",
+                        "count": 10
+                    }
+                ]
+            }
+        ]
+    }
+}
