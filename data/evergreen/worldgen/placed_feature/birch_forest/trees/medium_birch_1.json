@@ -1,23 +1,5 @@
 {
-    "feature": {
-        "type": "minecraft:simple_random_selector",
-        "config": {
-            "features": [
-                {
-                    "feature": "evergreen:birch/medium_birch_1",
-                    "placement": []
-                },
-                {
-                    "feature": "evergreen:birch/medium_birch_2",
-                    "placement": []
-                },
-                {
-                    "feature": "evergreen:birch/medium_birch_3",
-                    "placement": []
-                }
-            ]
-        }
-    },
+    "feature": "evergreen:birch/medium_birch_1",
     "placement": [
         {
             "type": "minecraft:count",
