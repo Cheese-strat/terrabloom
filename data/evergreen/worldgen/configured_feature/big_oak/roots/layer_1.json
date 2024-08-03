@@ -107,19 +107,7 @@
                                         0,
                                         0
                                     ],
-                                    "blocks": "minecraft:oak_wood"
-                                }
-                            },
-                            {
-                                "type": "minecraft:not",
-                                "predicate": {
-                                    "type": "minecraft:matching_blocks",
-                                    "offset": [
-                                        0,
-                                        0,
-                                        0
-                                    ],
-                                    "blocks": "minecraft:oak_log"
+                                    "blocks": "#minecraft:oak_logs"
                                 }
                             },
                             {

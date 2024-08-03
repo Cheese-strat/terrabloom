@@ -71,7 +71,23 @@
                                         "decorators": []
                                     }
                                 },
-                                "placement": []
+                                "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                                "type": "minecraft:matching_blocks",
+                                                "offset": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "blocks": "#minecraft:oak_logs"
+                                            }
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "feature": {
@@ -82,13 +98,13 @@
                                                 "feature": "evergreen:oak/branch_sets/horizontal/1",
                                                 "placement": [
                                                     {
-                                                        "type": "minecraft:count",
-                                                        "count": 8
-                                                    },
-                                                    {
                                                         "type": "minecraft:random_offset",
                                                         "xz_spread": 0,
                                                         "y_spread": 3
+                                                    },
+                                                    {
+                                                        "type": "minecraft:count",
+                                                        "count": 8
                                                     }
                                                 ]
                                             },
@@ -97,7 +113,7 @@
                                                 "placement": [
                                                     {
                                                         "type": "minecraft:count",
-                                                        "count": 4
+                                                        "count": 2
                                                     }
                                                 ]
                                             }
@@ -105,6 +121,18 @@
                                     }
                                 },
                                 "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "blocks": "#minecraft:oak_logs"
+                                        }
+                                    },
                                     {
                                         "type": "minecraft:count",
                                         "count": 4

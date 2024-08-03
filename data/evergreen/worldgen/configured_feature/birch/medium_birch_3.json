@@ -60,7 +60,23 @@
                                         "decorators": []
                                     }
                                 },
-                                "placement": []
+                                "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:not",
+                                            "predicate": {
+                                                "type": "minecraft:matching_blocks",
+                                                "offset": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "blocks": "#minecraft:birch_logs"
+                                            }
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "feature": {
@@ -82,7 +98,10 @@
                                                         "dirt_provider": {
                                                             "type": "minecraft:simple_state_provider",
                                                             "state": {
-                                                                "Name": "minecraft:dirt"
+                                                                "Name": "minecraft:birch_log",
+                                                                "Properties": {
+                                                                    "axis": "y"
+                                                                }
                                                             }
                                                         },
                                                         "trunk_provider": {
@@ -107,7 +126,7 @@
                                                         },
                                                         "trunk_placer": {
                                                             "type": "minecraft:straight_trunk_placer",
-                                                            "base_height": 12,
+                                                            "base_height": 9,
                                                             "height_rand_a": 0,
                                                             "height_rand_b": 0
                                                         },
@@ -142,7 +161,10 @@
                                                                         "dirt_provider": {
                                                                             "type": "minecraft:simple_state_provider",
                                                                             "state": {
-                                                                                "Name": "minecraft:dirt"
+                                                                                "Name": "minecraft:birch_log",
+                                                                                "Properties": {
+                                                                                    "axis": "y"
+                                                                                }
                                                                             }
                                                                         },
                                                                         "trunk_provider": {
@@ -167,7 +189,7 @@
                                                                         },
                                                                         "trunk_placer": {
                                                                             "type": "minecraft:straight_trunk_placer",
-                                                                            "base_height": 17,
+                                                                            "base_height": 14,
                                                                             "height_rand_a": 0,
                                                                             "height_rand_b": 0
                                                                         },
@@ -202,7 +224,10 @@
                                                                                         "dirt_provider": {
                                                                                             "type": "minecraft:simple_state_provider",
                                                                                             "state": {
-                                                                                                "Name": "minecraft:dirt"
+                                                                                                "Name": "minecraft:birch_log",
+                                                                                                "Properties": {
+                                                                                                    "axis": "y"
+                                                                                                }
                                                                                             }
                                                                                         },
                                                                                         "trunk_provider": {
@@ -227,7 +252,7 @@
                                                                                         },
                                                                                         "trunk_placer": {
                                                                                             "type": "minecraft:straight_trunk_placer",
-                                                                                            "base_height": 15,
+                                                                                            "base_height": 12,
                                                                                             "height_rand_a": 0,
                                                                                             "height_rand_b": 0
                                                                                         },
@@ -257,7 +282,10 @@
                                                                                         "dirt_provider": {
                                                                                             "type": "minecraft:simple_state_provider",
                                                                                             "state": {
-                                                                                                "Name": "minecraft:dirt"
+                                                                                                "Name": "minecraft:birch_log",
+                                                                                                "Properties": {
+                                                                                                    "axis": "y"
+                                                                                                }
                                                                                             }
                                                                                         },
                                                                                         "trunk_provider": {
@@ -282,7 +310,7 @@
                                                                                         },
                                                                                         "trunk_placer": {
                                                                                             "type": "minecraft:straight_trunk_placer",
-                                                                                            "base_height": 19,
+                                                                                            "base_height": 16,
                                                                                             "height_rand_a": 0,
                                                                                             "height_rand_b": 0
                                                                                         },
@@ -322,6 +350,23 @@
                                 },
                                 "placement": [
                                     {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "blocks": "#minecraft:birch_logs"
+                                        }
+                                    },
+                                    {
+                                        "type": "minecraft:random_offset",
+                                        "xz_spread": 0,
+                                        "y_spread": 3
+                                    },
+                                    {
                                         "type": "minecraft:count",
                                         "count": 12
                                     }
@@ -330,6 +375,18 @@
                             {
                                 "feature": "evergreen:birch/roots/layer_1",
                                 "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "blocks": "#minecraft:birch_logs"
+                                        }
+                                    },
                                     {
                                         "type": "minecraft:count",
                                         "count": 4
